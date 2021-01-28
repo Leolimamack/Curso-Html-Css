@@ -150,6 +150,7 @@ td, th {
     clear: left;
 }
 
+
 .principal {
     padding: 3em 0;
     background: #FEFEFE;
@@ -193,6 +194,10 @@ td, th {
 .itens {
     line-height: 1.5;
 
+}
+
+.itens::before{
+    content: "*";
 }
 
 .itens:first-child{
