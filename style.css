@@ -206,8 +206,14 @@ td, th {
 
 .beneficios-imagem{
     width: 60%;
+    opacity: 1;
+    transition: 400ms ;
+
 }
 
+.beneficios-imagem:hover{
+    opacity: 0.3;
+}
 
 .mapa {
     padding: 3em 0;
